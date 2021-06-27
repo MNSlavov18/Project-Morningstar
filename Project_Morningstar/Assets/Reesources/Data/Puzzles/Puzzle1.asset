@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88d8f210f82ba4b86601786f848291, type: 3}
+  m_Name: Puzzle1
+  m_EditorClassIdentifier: 
+  timeInSecond: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - L
+    - G
+    - B
+    - D
+    - U
+    - P
+    - A
+    - I
+    - M
+    - M
+  - Size: 10
+    Row:
+    - R
+    - Y
+    - N
+    - M
+    - E
+    - G
+    - K
+    - T
+    - X
+    - Q
+  - Size: 10
+    Row:
+    - N
+    - C
+    - I
+    - A
+    - G
+    - L
+    - K
+    - V
+    - Y
+    - L
+  - Size: 10
+    Row:
+    - Y
+    - H
+    - X
+    - E
+    - H
+    - L
+    - U
+    - N
+    - P
+    - B
+  - Size: 10
+    Row:
+    - L
+    - P
+    - F
+    - P
+    - G
+    - B
+    - T
+    - I
+    - Q
+    - B
+  - Size: 10
+    Row:
+    - P
+    - P
+    - A
+    - Q
+    - G
+    - M
+    - L
+    - T
+    - W
+    - X
+  - Size: 10
+    Row:
+    - K
+    - P
+    - R
+    - Z
+    - T
+    - Z
+    - T
+    - S
+    - M
+    - V
+  - Size: 10
+    Row:
+    - K
+    - B
+    - U
+    - K
+    - D
+    - Y
+    - K
+    - B
+    - C
+    - C
+  - Size: 10
+    Row:
+    - D
+    - I
+    - F
+    - L
+    - W
+    - N
+    - D
+    - C
+    - K
+    - P
+  - Size: 10
+    Row:
+    - A
+    - Q
+    - G
+    - X
+    - I
+    - J
+    - N
+    - F
+    - H
+    - Z
+  SearchWords:
+  - Word: SUMMER
