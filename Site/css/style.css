@@ -149,3 +149,23 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+.us li {
+    display: inline;
+    white-space: nowrap
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
